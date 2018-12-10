@@ -2,6 +2,10 @@
     font-family: "montserrat", sans-serif;
 }
 
+p {
+    font-family: "Raleway", sans-serif;
+}
+
 .logo {
     width: 120%;
     margin-top: auto;
@@ -31,6 +35,22 @@
     padding-bottom: 20px;
 }
 
+.landing {
+    margin-bottom: 30px;
+}
+
+.landing-text {
+    font-weight: 800;
+}
+
+.lang-btn, .lang-btn:hover,.lang-btn:focus, .lang-btn:active {
+    background-color: #B2810B;
+}
+
+.lang-item:focus {
+    background-color: #B2810B;
+}
+
 .profile-list {
     padding-left: 5%;
     padding-right: 5%;
@@ -38,6 +58,10 @@
 
 .back-button {
     margin-left: 5%;
+}
+
+.step-text {
+    
 }
 
 .profilepage {
@@ -126,6 +150,10 @@
     margin-right: auto;
 }
 
+.landing {
+    text-align: center;
+}
+
 .description {
     text-align: center;
 }
@@ -142,8 +170,32 @@
 
 #next-button {
     text-align: center;
-    
 }
+
+.btn-block {
+    padding: 30px 30px 30px 30px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.form-check-inline {
+    margin-bottom: 20px;
+}
+
+.custom-file {
+    margin-top: 10px;
+}
+
+.input-group-append {
+    margin-top: 10px;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
 .footer{
     padding-top: 10px;
     font-size: .5;
